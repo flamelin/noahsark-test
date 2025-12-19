@@ -28,7 +28,7 @@ require(dirname(__FILE__) . '/../admin_Site168/includes/order/lib_order_operate.
         }
         body {
             font-family: 'Microsoft JhengHei', Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -69,12 +69,12 @@ require(dirname(__FILE__) . '/../admin_Site168/includes/order/lib_order_operate.
         }
         input[type="text"]:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #f7971e;
         }
         .btn {
             width: 100%;
             padding: 14px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
             color: white;
             border: none;
             border-radius: 8px;
@@ -85,7 +85,7 @@ require(dirname(__FILE__) . '/../admin_Site168/includes/order/lib_order_operate.
         }
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 5px 20px rgba(247, 151, 30, 0.5);
         }
         .btn:active {
             transform: translateY(0);
@@ -123,7 +123,7 @@ require(dirname(__FILE__) . '/../admin_Site168/includes/order/lib_order_operate.
         .back-link {
             display: inline-block;
             margin-top: 15px;
-            color: #667eea;
+            color: #f7971e;
             text-decoration: none;
             font-weight: 500;
         }
@@ -251,7 +251,7 @@ require(dirname(__FILE__) . '/../admin_Site168/includes/order/lib_order_operate.
                 <input type="text" id="order_sn" name="order_sn" placeholder="請輸入訂單編號" required autofocus>
                 <p class="hint">例如：od2025081474231</p>
             </div>
-            <button type="submit" class="btn">📨 發送郵件</button>
+            <button type="submit" class="btn">發送郵件</button>
         </form>
         <?php } ?>
     </div>
